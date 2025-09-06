@@ -16,7 +16,7 @@ It includes multiple classifiers, model comparisons, and a simple deployment set
     - `cleveland.data` – Example dataset (raw)  
     - `vertebral_column.csv` – Main dataset (features + labels)  
     - `svm_spinal_classifier.pkl` – Trained SVM model (pickle)  
-  - **templates/** – HTML templates for Flask web app  
+  - **templates/**`deply.html` – HTML templates for Flask web app  
   - `Comparison Report.md` – Report comparing model performances  
   - `Deployment.py` – Duplicate deployment script (root-level)  
   - `svm_spinal_classifier.pkl` – Saved model (root-level)  
