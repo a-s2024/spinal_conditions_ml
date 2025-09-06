@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- Make it compatible with mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Spinal Condition Prediction</title>
+    
+</head>
+
+<body style="background: #000;">
+    <div class="login">
+        <h1 style="color: Violet;">Spinal Condition Prediction</h1>
+
+        <!-- Action is where the data is sent. In our case, predict page.
+        If action is omitted, it is assumed to be the current page -->
+        <form action="{{ url_for('predict') }}" method="post">
+            <input type="text" name="pelvic_incidence" placeholder="Pelvic Incidence" required="required" /><br>
+            <input type="text" name="pelvic_tilt" placeholder="Pelvic Tilt" required="required" /><br>
+            <input type="text" name="lumbar_lordosis_angle" placeholder="Lumbar Lordosis Angle" required="required" /><br>
+            <input type="text" name="sacral_slope" placeholder="Sacral Slope" required="required" /><br>
+            <input type="text" name="pelvic_radius" placeholder="Pelvic Radius" required="required" /><br>
+            <input type="text" name="degree_spondylolisthesis" placeholder="Degree of Spondylolisthesis" required="required" /><br>
+
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict Spinal Condition</button>
+        </form>
+
+        <br>
+        <br>
+        <h4 style="color: Violet;">{{ prediction_text }}</h4>
+    </div>
+</body>
+</html>
