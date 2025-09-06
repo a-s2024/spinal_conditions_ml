@@ -12,9 +12,6 @@ It includes multiple classifiers, model comparisons, and a simple deployment set
     - `Naive Bayes-Spinal Conditions.ipynb` – Naive Bayes model training  
     - `SVM-Spinal Conditions.ipynb` – SVM model training  
     - `kNN-Spinal Conditions.ipynb` – kNN model training  
-    - `layout.ipynb` – Web app layout (Flask interface)  
-    - `layout-Copy1.ipynb`  
-    - `layout-Copy2.ipynb`  
     - `Deployment.py` – Flask app script for model deployment  
     - `cleveland.data` – Example dataset (raw)  
     - `vertebral_column.csv` – Main dataset (features + labels)  
