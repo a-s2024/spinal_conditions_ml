@@ -6,25 +6,23 @@ It includes multiple classifiers, model comparisons, and a simple deployment set
 ---
 
 ## Repository Structure
-Spinal Conditions/
-│
-├── files for training model/ # Core training and model files
-│ ├── Naive Bayes-Spinal Conditions.ipynb # Naive Bayes model training
-│ ├── SVM-Spinal Conditions.ipynb # SVM model training
-│ ├── kNN-Spinal Conditions.ipynb # kNN model training
-│ ├── layout.ipynb # Web app layout (Flask interface)
-│ ├── layout-Copy1.ipynb
-│ ├── layout-Copy2.ipynb
-│ ├── Deployment.py # Flask app script for model deployment
-│ ├── cleveland.data # Example dataset (raw)
-│ ├── vertebral_column.csv # Main dataset (features + labels)
-│ ├── svm_spinal_classifier.pkl # Trained SVM model (pickle)
-│
-├── templates/ # HTML templates for Flask web app
-│
-├── Comparison Report.md # Report comparing model performances
-├── Deployment.py # Duplicate deployment script (root-level)
-├── svm_spinal_classifier.pkl # Saved model (root-level)
+
+- **Spinal Conditions/**
+  - **files for training model/**
+    - `Naive Bayes-Spinal Conditions.ipynb` – Naive Bayes model training  
+    - `SVM-Spinal Conditions.ipynb` – SVM model training  
+    - `kNN-Spinal Conditions.ipynb` – kNN model training  
+    - `layout.ipynb` – Web app layout (Flask interface)  
+    - `layout-Copy1.ipynb`  
+    - `layout-Copy2.ipynb`  
+    - `Deployment.py` – Flask app script for model deployment  
+    - `cleveland.data` – Example dataset (raw)  
+    - `vertebral_column.csv` – Main dataset (features + labels)  
+    - `svm_spinal_classifier.pkl` – Trained SVM model (pickle)  
+  - **templates/** – HTML templates for Flask web app  
+  - `Comparison Report.md` – Report comparing model performances  
+  - `Deployment.py` – Duplicate deployment script (root-level)  
+  - `svm_spinal_classifier.pkl` – Saved model (root-level)  
 
 
 ---
